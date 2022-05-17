@@ -1,0 +1,205 @@
+body{
+     
+    background-image: url(../img/dramaPage/1289331.jpg);
+    perspective: 600px;
+}
+.title{
+    
+    font-size: 50px;
+    width: 30%;
+    font-style:oblique;
+    text-align:center;
+    text-shadow: 1px 1px 3px yellowgreen;
+    box-shadow: -5px 5px 5px yellow;
+    color:yellow;
+    border: 0px;
+    border-style: groove;
+    padding: 5px;
+    border-color: black;
+    margin: 30px;
+    transition: all 0.5s;
+    
+    
+}
+img{
+    width:230px;
+    height:350px;
+}
+.a{
+    width: 230px;
+    height: 350px;
+    border:3px solid #ffd700;
+    position: relative;
+    overflow: hidden;
+    border-radius: 60px;
+}
+.name
+{
+    width:240px;
+    color:#F6FF00;
+    font-size: 130%;
+    text-align: center;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-image: url(../img/dramaPage/ooo.jpg);
+}
+.one{
+    margin-left:80px;
+    margin-top:120px;
+    display:inline-block;
+}
+.two, .three, .four, .five, .seven, .eight, .ten, .thirteen, .nine, .fourteen, .fifteen, .twelve{
+    margin-left:100px;
+    display:inline-block;
+}
+.six, .eleven{
+    margin-left:80px;
+    display:inline-block;
+    margin-top:30px;
+}
+.details{
+    width:250px;
+    height:380px;
+    background:rgba(0,0,0,0.6);
+    position:absolute;
+    margin:0;
+    top:400px;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    padding-top:20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family:sans-serif;
+}
+
+
+.a:hover .details
+{
+     top:0;
+}
+.l{
+    width:200px;
+    color:#fff;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background: darkred;
+    text-align: center;
+    margin:20px 0 0 20px;
+    letter-spacing: 1px;
+    }
+.y{
+    width: 60px;
+    color:#000;
+    font-size:bold; 
+    background-color:darkgoldenrod;
+    position: absolute;
+    bottom:95px;
+    font-family: sans-serif;
+    margin: 10px;
+    padding-left:5px;
+    font-weight:600;
+}
+.r{
+    width:60px;
+    color:#000;
+    background-color:darkgoldenrod;
+    position: absolute;
+    bottom: 60px;
+    font-family: sans-serif;
+    margin: 10px;
+    padding-left:5px;
+    font-weight:600;
+}         
+.movie-info{
+    width:210;
+    line-height: 20px;
+    margin:50px 15px 15px; 
+    
+}
+        
+        
+
+.container{
+    display:flex;
+    height:350px;
+    justify-content:center;
+    align-items: center;
+    background-image:url(../img/dramaPage/image.jpg); 
+    border-bottom:8px solid darkred;
+    border-top:8px solid darkred;
+    margin-top: 50px
+}
+
+.slider-wrapper{
+    width:600px;
+    height:300px;
+    overflow: hidden;
+}
+.inner-wrapper{
+    width:400%;
+    height:100%;
+    position: relative;
+    left:-100%;
+}
+.slide{
+    height:300px;
+    width:600px;
+    float:left;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.button{
+    width:30px;
+    height:30px;
+    border-top:2px solid white;
+    position: absolute;
+    cursor: pointer;
+}
+.prev{
+    border-left:2px solid white;
+    left:20%;
+    transform: rotate(-45deg);
+}
+.next{
+    border-right:2px solid white;
+    right:20%;
+    transform: rotate(45deg);
+}
+.trailer-name{
+    width:200px;
+    height:50px;
+    position:absolute;
+    font-weight: bold;
+    top:10px;
+    color:#FCE700;
+    text-align: center;
+}
+.edit{
+    
+    font-size: 96.3%;
+}
+div.movie-background
+{
+    color:white;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1));
+    box-sizing: border-box;
+}
+
+div.movie-img
+{
+    overflow: hidden;
+    height: 100%;
+}
+div.movie-img img
+{
+    width: 100%;
+    transition: transform 3s;
+}
+div.movie-img img:hover
+{
+    transform: scale(1.2);
+}
